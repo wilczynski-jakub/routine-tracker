@@ -19,4 +19,4 @@ The script can be used for automatizing this step:
 <br>
 Once runned, it will type the current time automatically.
 <br><br>
-<i>Note: it uses 'xdotool' that has to be installed, and it is available only on Unix-like operating systems. For Windows, a separate Python script is to be added soon.</i>
+<i>Note: it uses 'xdotool' that has to be installed, and it is available only on Unix-like operating systems. For Windows, a separate Python script is to be added in the future.</i>
