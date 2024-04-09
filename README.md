@@ -1,7 +1,7 @@
 # Routine Tracker
 Track the daily progress of your routine goals with an automatized spreadsheet, and never be late for work again!
 
-## routine-tracker.xlsx
+## [routine-tracker.xlsx](routine-tracker.xlsx)
 | Cell | Functionality |
 |-------|------|
 | ![Screenshot 1](screenshots/1.png) | Baseline time: preferably 0:00 but it can also be a specific hour. |
@@ -12,7 +12,7 @@ Track the daily progress of your routine goals with an automatized spreadsheet, 
 | ![Screenshot 6](screenshots/6.png) | If you're not doing it at all: once "x" is put, the below cell becomes "No". |
 | ![Screenshot 7](screenshots/7.png) | You can see the percentage of your activities' completion (where each "Yes" counts as 1 and each "Meh" counts as ½). |
 
-## auto_type_time.sh
+## [auto_type_time.sh](auto_type_time.sh)
 The script can be used for automatizing this step:
 <br>
 ![Screenshot 4](screenshots/4.png)
