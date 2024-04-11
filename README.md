@@ -12,11 +12,18 @@ Track the daily progress of your routine goals with an automatized spreadsheet, 
 | ![Screenshot 6](screenshots/6.png) | If you're not doing it at all: once "x" is put, the below cell becomes "No". |
 | ![Screenshot 7](screenshots/7.png) | You can see the percentage of your activities' completion (where each "Yes" counts as 1 and each "Meh" counts as ½). |
 
-## [auto_type_time.sh](auto_type_time.sh)
+## [auto_type_time.sh](auto_type_time.sh) (Linux) / [auto_type_time.py](auto_type_time.py) (Python)
 The script can be used for automatizing this step:
 <br>
 ![Screenshot 4](screenshots/4.png)
 <br>
 Once runned, it will type the current time automatically.
 <br><br>
-<i>Note: it uses 'xdotool' that has to be installed, and it is available only on Unix-like operating systems. For Windows, a separate Python script is to be added in the future.</i>
+<i>Note: for the Linux version of the script, make sure to have the **xdotool** utility installed:</i>
+~~~
+sudo apt install xdotool
+~~~
+<i>whereas for the Python version, you'd need to install the **pynput** library:</i>
+~~~
+pip install pynput
+~~~
